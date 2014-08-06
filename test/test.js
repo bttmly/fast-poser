@@ -1,6 +1,6 @@
 var should = require('should'),
     expect = require('expect.js'),
-    fast = require('../lib');
+    fast = require('../lib')();
 
 
 describe('fast.bind()', function () {

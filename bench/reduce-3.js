@@ -1,4 +1,4 @@
-var fast = require('../lib'),
+var fast = require('../lib')(),
     underscore = require('underscore'),
     lodash = require('lodash'),
     history = require('../test/history'),

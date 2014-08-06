@@ -1,4 +1,4 @@
-var fast = require('../lib'),
+var fast = require('../lib')(),
     utils = require('./utils');
 
 var input = [1,2,3];

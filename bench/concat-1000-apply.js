@@ -1,4 +1,4 @@
-var fast = require('../lib'),
+var fast = require('../lib')(),
     history = require('../test/history');
 
 var input = [];
