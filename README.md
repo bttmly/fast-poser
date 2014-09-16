@@ -2,7 +2,7 @@
 
 ## About This Fork
 
-This fork allows you to use fast.js with [poser](). Instead of exporting the Fast constructor, fast-poser exports a function into which you pass `Ctor`, an Array-like constructor. Wherever fast.js uses `new Array()`, fast-poser uses `new Ctor()`.
+This fork allows you to use fast.js with [poser](). Instead of exporting the Fast constructor, fast-poser exports a function into which you pass `Ctor`, an Array-like constructor. Wherever fast.js top-level methods use `new Array()` or `[]`, fast-poser uses `new Ctor()`. 
 
 ```javascript
 var poser = require('poser');
